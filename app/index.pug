@@ -1,0 +1,130 @@
+doctype html
+html.no-js(lang='')
+  head
+    meta(charset='utf-8')
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    title webapp
+    link(rel='apple-touch-icon', href='apple-touch-icon.png')
+    // Place favicon.ico in the root directory
+    // build:css styles/vendor.css
+    // bower:css
+    // endbower
+    // endbuild
+    // build:css styles/main.css
+    link(rel='stylesheet', href='styles/main.css')
+    // endbuild
+    // build:js scripts/vendor/modernizr.js
+    script(src='/bower_components/modernizr/modernizr.js')
+    //fa
+    script(defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js")
+    // endbuild
+  body
+    header
+      .container
+        .header-info
+          img(src='images/logo.png' class='logo')
+          .header-info-contacts
+            .info-block
+              .info-icon.time
+              .info-block-text
+                p.subject
+                 | WORK TIME: 09:00 - 17:00
+                p
+                 | Saturday and Sunday - CLOSED
+
+            .info-block
+              .info-icon.mail
+              .info-block-text
+                p.subject
+                 | WORK TIME: 09:00 - 17:00
+                p
+                 | Saturday and Sunday - CLOSED
+            .info-block
+              .info-icon.call
+              .info-block-text
+                p.subject
+                 | WORK TIME: 09:00 - 17:00
+                p
+                 | Saturday and Sunday - CLOSED
+        .header-menu
+          ul.header-menu-list
+            li
+              a(href='#')
+               | Home
+            li
+              a(href='#')
+               | About
+            li
+              a(href='#')
+               | Services
+            li
+              a(href='#')
+               | Gallery
+            li
+              a(href='#')
+               | Blog
+            li
+              a(href='#')
+               | Contact us
+          .header-menu-social
+            a(href='#' class='facebook-link')
+              i(class="fab fa-facebook-f")
+            a(href='#' class='google-plus-link')
+              i(class="fab fa-google-plus-g")
+            a(href='#' class='vk-link')
+              i(class="fab fa-vk")
+            a(href='#' class='youtube-link')
+              i(class="fab fa-youtube")
+            a(href='#' class='pinterest-link')
+              i(class="fab fa-pinterest-p")
+
+    .medicare-section
+      .container
+        .medicare-section-content
+          h1
+           | We have Best Medicare plan options for you
+          p
+           | Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+          a(href='#' class='btn-learn')
+           | Read more
+
+    .statistic-section
+      .container
+
+
+
+      script.
+        (function (b, o, i, l, e, r) {
+          b.GoogleAnalyticsObject = l;
+          b[l] || (b[l] =
+            function () {
+              (b[l].q = b[l].q || []).push(arguments)
+            });
+          b[l].l = +new Date;
+          e = o.createElement(i);
+          r = o.getElementsByTagName(i)[0];
+          e.src = 'https://www.google-analytics.com/analytics.js';
+          r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X');ga('send', 'pageview');
+      // build:js scripts/vendor.js
+      // bower:js
+      // endbower
+      // endbuild
+      // build:js scripts/plugins.js
+      script(src='/bower_components/bootstrap/js/dist/util.js')
+      script(src='/bower_components/bootstrap/js/dist/alert.js')
+      script(src='/bower_components/bootstrap/js/dist/button.js')
+      script(src='/bower_components/bootstrap/js/dist/carousel.js')
+      script(src='/bower_components/bootstrap/js/dist/collapse.js')
+      script(src='/bower_components/bootstrap/js/dist/dropdown.js')
+      script(src='/bower_components/bootstrap/js/dist/modal.js')
+      script(src='/bower_components/bootstrap/js/dist/scrollspy.js')
+      script(src='/bower_components/bootstrap/js/dist/tab.js')
+      script(src='/bower_components/bootstrap/js/dist/tooltip.js')
+      script(src='/bower_components/bootstrap/js/dist/popover.js')
+      // endbuild
+      // build:js scripts/main.js
+      script(src='scripts/main.js')
+      // endbuild
