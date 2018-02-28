@@ -15,7 +15,9 @@
 @import "sections/header";
 @import "sections/head-section";
 @import "sections/medicare-section";
-@import "sections/statistic-section";
+@import "sections/services-section";
+@import "sections/advantages-section";
+
 
 
 
@@ -48,4 +50,15 @@ body {
   margin-left: 0;
   margin-right: 0;
   width: 100%;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: $montserrat-bold;
+}
+
+p {
+  font-size: 16px;
+  font-family: $opensans-regular;
+  line-height: 1.7;
 }
