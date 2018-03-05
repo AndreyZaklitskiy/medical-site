@@ -1,1 +1,61 @@
+.statistic-section {
+  .container {
+    background-color: #0084bd;
+    background-image: url(/images/statistics-bg-img.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-top: 152px;
+    padding-bottom: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
+  }
+}
+
+.statistic-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  span {
+    font-family: $montserrat-medium;
+    font-size: 60px;
+    display: inline-block;
+    padding-top: 45px;
+  }
+  p {
+    font-family: $montserrat-medium;
+    font-size: 25px;
+
+  }
+}
+.arms-item {
+  span {
+    &::before {
+      content: '';
+      display: block;
+      @include sprite($arms-icon);
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
+.heart-item {
+  span {
+
+  }
+}
+.helicopter-item {
+  span {
+
+  }
+}
+.lundgs-item {
+  span {
+
+  }
+}

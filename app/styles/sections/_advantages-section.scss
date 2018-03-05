@@ -26,25 +26,27 @@
   height: 600px;
   flex-wrap: wrap;
   position: relative;
-  margin: auto;
   background-image: url(/images/nurse-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  &::after {
-    content: '';
-
-    position: absolute;
-    top: 2px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 337px;
+  width: 100vw;
+  /*
+  &:nth-child(1) {
+    margin: auto auto 200px auto;
   }
+  &:nth-child(2) {
+    margin: auto auto 200px auto;
+  }
+  &:nth-child(3) {
+    margin: auto auto auto 200px;
+  }
+  &:nth-child(4) {
+    margin: auto auto auto 200px;
+  }
+  */
 }
 .advantages-content-items {
   max-width: 360px;
-  margin: auto auto 90px;
   z-index: 2;
   h3 {
     color: #6f6f6e;
@@ -53,7 +55,18 @@
     color: #6a6a6a;
   }
 }
-
+.advatages-item-1 {
+  margin: auto 200px 90px auto;
+}
+.advatages-item-2 {
+  margin: auto 200px 90px auto;
+}
+.advatages-item-3 {
+  margin: auto auto 90px 200px;
+}
+.advatages-item-4 {
+  margin: auto auto 90px 200px;
+}
 /*
 .advatages-item-1 {
   margin-right: 200px;
@@ -134,4 +147,10 @@
     bottom: 0;
     @include sprite($atom-icon);
   }
+}
+
+
+
+@media (max-width: 1200px) {
+
 }
