@@ -20,8 +20,9 @@
   text-align: center;
   align-items: center;
   margin: auto;
-  padding-bottom: 50px;
+  //padding-bottom: 50px;
   color: #fff;
+  padding: 0 30px 50px;
   span {
     font-family: $montserrat-medium;
     font-size: 60px;
@@ -30,7 +31,6 @@
   p {
     font-family: $montserrat-medium;
     font-size: 25px;
-
   }
 }
 

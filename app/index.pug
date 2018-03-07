@@ -16,9 +16,11 @@ html.no-js(lang='')
     // endbuild
     // build:js scripts/vendor/modernizr.js
     script(src='/bower_components/modernizr/modernizr.js')
+    script(src='/node_modules/jquery/dist/jquery.slim.js')
     //fa
     script(defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js")
     // endbuild
+
   body
     header
       .container
@@ -188,6 +190,71 @@ html.no-js(lang='')
           p
            | Lung <br> Replacement
 
+    .work-section
+      .container
+        .how-we-work-block
+          h2
+           | How we works
+          p
+           | Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Єбаторії нам не нада, ни в коем случаї.
+          .how-we-work-image-block
+            .how-we-work-image-block-item
+              img(class='work-photo-1' src='images/work-photo-1.jpg')
+              span.work-image-sign
+               | Зав. отделением на серёзных щах
+              span.work-image-info
+               | April 19, 2017   |   Dr. Йосип Ахуєнскій
+              p
+               | Мастер на всі руки. Придумав замінить тупі тєксти риби нормальной хуйньой, на фото вийобується перед подругой. Гомофоб. Шось поняв.
+
+            .how-we-work-image-block-item
+              img(class='work-photo-2' src='images/work-photo-2.jpg')
+              span.work-image-sign
+               | щас будем справлять зубки
+              span.work-image-info
+               | April 19, 2017   |   Dr. Просто Сьюзен
+              p
+               | Спеціалістка по вибиванню дурі з діток. Не доєбаться. Лишнього при ній лучше не базарить, може тріснуть по єбальніку.
+
+          a(href='#' class='btn-learn')
+           | LEARN MORE
+
+        aside.creative-block
+          h2
+           | Our creative
+          p
+           | Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          .creative-menu
+            .creative-menu-button
+              .work-circle-icon
+                i(class="fas fa-caret-right fa-lg")
+              h4
+               | Лечим от головной боли
+            p
+             | Все люди равны, каждый индивидуален, не стоит равняться на других, покажи себя. Sed ut perspiciatis unde omnis iste natus error s.it voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+            .creative-menu-button
+              .work-circle-icon
+                i(class="fas fa-caret-right fa-lg")
+              h4
+               | Неизлечимо? Вылечим
+            p
+             | Ну, це не просто. Sed ut perspiciatis unde omnis iste natus error s.it voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+            .creative-menu-button
+              .work-circle-icon
+                i(class="fas fa-caret-right fa-lg")
+              h4
+               | Трудотерапія
+            p
+             | Sed ut perspiciatis unde omnis iste natus error s.it voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+            .creative-menu-button
+              .work-circle-icon
+                i(class="fas fa-caret-right fa-lg")
+              h4
+               | А о чём это мы?
+            p
+             | Вылечим и душевные раны. Sed ut perspiciatis unde omnis iste natus error s.it voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+
+
 
 
 
@@ -207,6 +274,7 @@ html.no-js(lang='')
           r.parentNode.insertBefore(e, r)
         }(window, document, 'script', 'ga'));
         ga('create', 'UA-XXXXX-X');ga('send', 'pageview');
+
       // build:js scripts/vendor.js
       // bower:js
       // endbower
