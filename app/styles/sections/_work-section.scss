@@ -60,15 +60,16 @@
   }
 }
 
-.creative-menu-button {
+.creative-menu-title {
   display: flex;
   align-items: center;
-  background-color: #0087BE;
+  background-color: #E2E2E2;
   max-width: 422px;
   height: 54px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
+  margin-bottom: 12px;
   .work-circle-icon {
     width: 40px;
     height: 40px;
@@ -87,7 +88,6 @@
   h4 {
     font-family: $montserrat-medium;
     font-size: 20px;
-    color: #fff;
+    color: #494949;
   }
 }
-
